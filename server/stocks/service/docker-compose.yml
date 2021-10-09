@@ -1,9 +1,0 @@
-version: '3'
-
-servicec:
-  web:
-    build: .
-    volume:
-      - .:/app
-    ports:
-      - "8000:8000"
